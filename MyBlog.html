@@ -27,12 +27,23 @@
 	}
 
  .container {
-            text-align: center; /* Center-align text within the container */
+            text-align: center;
         }
 
 .project-image {
         border: 4px solid #000;
-    }
+	}
+
+.text-and-image {
+            display: inline-block;
+            vertical-align: bottom;
+            margin-right: 20px;
+        }
+
+.indented-paragraph {
+            text-indent: 20px; /* Adjust the value for the desired indentation */
+            padding-left: 20px; /* Add padding for a visual separation */
+        }
 
     </style>
 </head>
@@ -51,17 +62,31 @@
          </div>
   </div>
 	
-  <div id="BLOGTEMP">
+ <div id="BLOGTEMP">
         <section class="text-container">
-
             <h2>What is Brutalism?</h2>
-            <p>Insert blog post</p>
+
+            <div class="text-and-image">
+                <p class="indented-paragraph">Brutalism is an architectural building style that dominated office buildings, apartments, and towers during the cold war era. Two examples are below. The first image shows St. Joseph Medical Center in Tacoma, Washington, and is my favorite example of brutalist design. Built in the early 70's, designed and beautifully photographed by Bertrand Goldberg Associates, the building was an initiative to modernize healthcare. 
+	    </div>
+
+<div class="indented-paragraph">
+	The second image shows the New York City Police Headquarters in New York City. This is a good example of most buildings udner this style. It is boxy, very industrial, and meant to efficiently use as much space as possible. It's interesting to look at these buildings as its almost like a historical artifact, giving us a lens to peer into what life was like during the time. </p>
+            </div>
+
+            <div class="text-and-image">
+                <ul>
+                    <img src="docs/assets/1.jpg" alt="example 1" width="200" class="project-image">
+                </ul>
+            </div>
+
+            <div class="text-and-image">
+                <ul>
+                    <img src="docs/assets/2.jpg" alt="example 2" width="200" class="project-image">
+                </ul>
+            </div>
+
             <p>Insert date</p>
-
-          <ul>
-<img src="/path/to/image/" alt="alternatetext" width="200" class="project-image">
-          </ul>
-
         </section>
     </div>
 
