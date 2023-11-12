@@ -36,9 +36,9 @@ permalink: /404.html
     </style>
 </head>
 <body>
- <div class="text-container" class="center-text">
-    <h1>404</h1>
-    <p>Page not found.</p>
+ <div class="text-container">
+    <h1 class="center-text">404</h1>
+    <p class="center-text">Page not found.</p>
     <a class="container" href="/">home</a>
  </div>
 </body>
