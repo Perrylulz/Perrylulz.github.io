@@ -1,0 +1,45 @@
+---
+permalink: /404.html
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Not Found</title>
+    <style>
+        body {
+            background-image: url('C:\Users\bigbr\Documents - Copy\Personal\Perrylulz.github.io\IMG_2346.jpg'); 
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat;
+        }
+
+.text-container {
+            background-color: white; 
+            padding: 20px;
+	    border: 4px solid black; 
+            margin: 50px; 
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+		
+        }
+ .center-text {
+            text-align: center;
+	}
+
+ .container {
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+ <div class="text-container" class="center-text">
+    <h1>404</h1>
+    <p>Page not found.</p>
+    <a class="container" href="/">home</a>
+ </div>
+</body>
+</html>
