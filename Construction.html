@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="icon" type="image/x-icon" href="docs\assets\favicon\favicon.ico">
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="docs\assets\favicon\favicon.ico"
+    />
     <meta charset="UTF-8" />
-    <title>Home</title>
+    <title>My Blog</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <style>
       body {
@@ -48,23 +52,21 @@
   </head>
   <body>
     <div id="HEADER" class="text-container">
-      <h1 class="center-text">Welcome to My Website! :) </h1>
-      <p class="center-text">
-        Hi, I'm Perry. This is my personal website where I share my thoughts and
-        photos.:p
-      </p>
-
-      <div id="LINKSBLOCK" class="container">
-        <a href="MyPortfolio.html">My Photos</a>
-        <a href="BlogMenu.html">My Blogs</a>
-        <a href="AboutMe.html">About Me</a>
-        <a href="mailto:perry1180@icloud.com">Contact Me</a>
+        <h1 class="center-text">My Blog</h1>
+        <p class="center-text">
+          This is where I post about my thoughts, what I'm doing, and other news!
+        </p>
+  
+        <div id="LINKSBLOCK" class="container">
+          <a href="index.html">Home</a>
+          <a href="MyPortfolio.html">My Photos</a>
+          <a href="BlogMenu.html">My Blogs</a>
+          <a href="AboutMe.html">About Me</a>
+          <a href="mailto:perry1180@icloud.com">Contact Me</a>
+        </div>
       </div>
-    </div>
-
-    <div id="NEWSBLOCK" class="text-container">
-      <h2 class="center-text">My most recent blog post</h2>
       <div id="BLOGTEMP">
+        <section class="text-container">
           &nbsp
   
           <h2 class="indented-paragraph">
@@ -107,57 +109,42 @@
   
           &nbsp
 
-              
-
-              <div class="container">
-                <a href="MyBlog.html">Click here to see more of my posts!</a>
-                &nbsp;
-                &nbsp;
+            <div class="comment-section">
+                  <h2>Comments</h2>
+                <form id="commentForm">
+                  <label for="username">Name:</label><br>
+                  <input type="text" id="username" name="username" required><br><br>
+                  <label for="comment">Comment:</label><br>
+                  <textarea id="comment" name="comment" rows="4" cols="50" required></textarea><br><br>
+                  <button type="submit">Post Comment</button>
+              </form>
+              <div id="commentsContainer">
               </div>
-              &nbsp;
-              &nbsp;
-              <div class="comment-section">
-                <h2>Comments</h2>
-              <form id="commentForm">
-                <label for="username">Name:</label><br>
-                <input type="text" id="username" name="username" required><br><br>
-                <label for="comment">Comment:</label><br>
-                <textarea id="comment" name="comment" rows="4" cols="50" required></textarea><br><br>
-                <button type="submit">Post Comment</button>
-            </form>
-            <div id="commentsContainer">
-            </div>
-            </div>
         </section>
-        </div>
-      </section>
-    </div>
-    </div>
-
-  <section>
-    <div id="CONTACTSBLOCK">
-      <section id="CONTACTS" class="text-container">
+      </div>
+      <section id="contacts" class="text-container">
         <h2 class="center-text">Contacts</h2>
         <div class="container">
           <a href="https://www.instagram.com/local_304/" target="_blank"
-            >Instagram</a>
-      
-        <a href="  https://www.youtube.com/@Beezusj1180"
-            >Youtube</a>
+            >Instagram</a
+          >
         </div>
         <p class="center-text">
           You can also reach me at perry1180@icloud.com.
         </p>
-
+  
         <div class="container">
           <a href="perry1180@icloud.com">Contact Me</a>
         </div>
-      
-        <p class="center-text">
+  &nbsp;
+      <div id="LINKSBLOCK" class="container">
+        <a href="index.html">Home</a>
+        <a href="MyPortfolio.html">My Photos</a>
+        <a href="BlogMenu.html">My Blogs</a>
+        <a href="AboutMe.html">About Me</a>
+        <a href="mailto:perry1180@icloud.com">Contact Me</a>
+      </div>
+      <p class="center-text">
           &copy; 2025 Bitter. All rights reserved.
         </p>
-      </section>
-    </section>
-    </section>
-  </body>
-</html>
+    </div>
