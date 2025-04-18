@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="docs\assets\favicon\favicon.ico"
+    />
+    <meta charset="UTF-8" />
+    <title>My Blog</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <style>
+      body {
+        background-image: url("docs/assets/BloodMoon/BloodMoon.Edit5.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      .text-container {
+        background-color: white;
+        padding: 20px;
+        border: 4px solid black;
+        margin: 50px;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .center-text {
+        text-align: center;
+      }
+
+      .container {
+        text-align: center;
+      }
+
+      .project-image {
+        border: 4px solid #000;
+      }
+
+      .text-and-image {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 20px;
+      }
+
+      .indented-paragraph {
+        text-indent: 20px;
+        padding-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="HEADER" class="text-container">
+        <h1 class="center-text">My Blog</h1>
+        <p class="center-text">
+          This is where I post about my thoughts, what I'm doing, and other news!
+        </p>
+  
+        <div id="LINKSBLOCK" class="container">
+          <a href="index.html">Home</a>
+          <a href="MyPortfolio.html">My Photos</a>
+          <a href="BlogMenu.html">My Blogs</a>
+          <a href="AboutMe.html">About Me</a>
+          <a href="mailto:perry1180@icloud.com">Contact Me</a>
+        </div>
+      </div>
+      <div id="BLOGTEMP">
+        <section class="text-container">
+          &nbsp
+  
+          <h2 class="indented-paragraph">
+            My Most Personally Influential Aspect - My Sun/Saturn Sextile (and stuff on 12 house merc)
+          </h2>
+  
+          <div class="indented-paragraph">
+            <p>  
+              I thought a cool blog prompt would be to write about the aspect I feel has significantly affected me. I can't really say which one has affected me the *most* because there are some things I am not aware of.
+            </p>
+          </div>
+  
+          <div class="indented-paragraph">
+            <p>
+              Obviously I am proud of this not only because it involves my Sun but because It makes me feel strong. I feel like I have my backup person on the inside to be called upon whenever. Say, for instance, that I felt a certain different way about something than most of the people around me, I would remember that Sun/Saturn energy and something tells me that I am solid enough to do my own thing. Learning and growing I become more mentally and sensually aware, I have begun to feel things almost literally in my heart. I poke my chest sometimes, its like an itch.
+
+            </p>
+          </div>
+  
+          <div class="indented-paragraph">
+            <p>
+              The solidness that I feel in my body, grounded when I stand, I can see myself by means of my minds eye. I think I might take an excerpt from my journal just for fun lol. You guys can see what's going on. 
+            </p>
+          </div>
+  
+          <div class="indented-paragraph">
+            <p>
+              I think whenever I try to write about my aspects I have this burst of energy but then it sputters out into nothingness because I actually haven't thought super hard about what's going on (I know I just wrote about the aspect but I've literally been sitting here for 5 minutes trying to write more). I guess on that note I could speak about my mercury placement. As it in the 12th house (the worst house) I have zero conscious, aware, vivid thoughts. One time I looked at a clock really hard to try and tell the time but I didn't even read the clock, I just sensed the vibe and then was like 'ok, I guess I have like 10 minutes of lunch left' *but no* it was like 20. I was so confused why the bell wasn't ringing.
+            </p>
+          </div>
+
+          <div class="indented-paragraph">
+            <p>
+              Like how???
+            </p>
+          </div>
+
+          <div class="indented-paragraph">
+            <p>
+              I think I'm dumb.
+            </p>
+          </div>
+
+          <div class="indented-paragraph">
+            <p>
+              Anyways ya, people say I'm a very good writer, I really can't disagree, but I really wonder how that could be when my mercury seems so debilitated. I'll say it was my older brother, I don't think I've told him this story but one time we were in the same English class and he wrote an essay that I bothered him about where he let me read it and I swear my eyes popped out of my head. I was reading it and it was so good, it was rich and looked like it was actually trying to say something. I wonder how he got so good at essays. Anyways that one moment of a menial day changed me forever. I remember standing like young people do when they have a sudden expansion of their consciousness. that 0-0 look.
+            </p>
+          </div>
+
+          <div class="indented-paragraph">
+            <p>
+              I think the Saturn accept has strengthened my individuality, maybe I wouldn't feel like doing astrology if I didn't have that aspect. I know someone born a day before me and we have a similar look. Similar smile. 
+            </p>
+          </div>
+
+          <div class="indented-paragraph">
+            <p>
+              also aquarians suck. 
+            </p>
+          </div>
+  
+          <div class="indented-paragraph">
+          <p>
+            so basically this has been a stream of consciousness, as all my blogs are. I never plan, never do drafts, literally just write and then boom, blogged. 
+          </p>
+        </div>
+
+        <div class="indented-paragraph">
+            <p>
+              so ya.
+            </p>
+          </div>
+
+          <div class="indented-paragraph">
+            <p>
+              I think I like blogging because I like to share myself with the world. People suck tho atp in life, I get to get the most bang for my 1st amendment bucks on the internet. 
+            </p>
+          </div>
+
+          &nbsp
+  
+          <!-- <div class="text-and-image">
+            <ul>
+              <img
+                src="docs\assets\Blog 2-18-24 Liggin Pork\LP.jpg"
+                alt="likin prk"
+                ="150"
+                class="project-image"
+              />
+            </ul>
+          </div> -->
+  
+          <p>Apr 6, 2025</p>
+  
+          &nbsp
+
+            <div class="comment-section">
+                  <h2>Comments</h2>
+                <form id="commentForm">
+                  <label for="username">Name:</label><br>
+                  <input type="text" id="username" name="username" required><br><br>
+                  <label for="comment">Comment:</label><br>
+                  <textarea id="comment" name="comment" rows="4" cols="50" required></textarea><br><br>
+                  <button type="submit">Post Comment</button>
+              </form>
+              <div id="commentsContainer">
+              </div>
+        </section>
+      </div>
+      <section id="contacts" class="text-container">
+        <h2 class="center-text">Contacts</h2>
+        <div class="container">
+          <a href="https://www.instagram.com/local_304/" target="_blank"
+            >Instagram</a
+          >
+        </div>
+        <p class="center-text">
+          You can also reach me at perry1180@icloud.com.
+        </p>
+  
+        <div class="container">
+          <a href="perry1180@icloud.com">Contact Me</a>
+        </div>
+  &nbsp;
+      <div id="LINKSBLOCK" class="container">
+        <a href="index.html">Home</a>
+        <a href="MyPortfolio.html">My Photos</a>
+        <a href="BlogMenu.html">My Blogs</a>
+        <a href="AboutMe.html">About Me</a>
+        <a href="mailto:perry1180@icloud.com">Contact Me</a>
+      </div>
+      <p class="center-text">
+          &copy; 2025 Bitter. All rights reserved.
+        </p>
+    </div>
